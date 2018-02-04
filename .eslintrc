@@ -13,11 +13,15 @@
   "extends": ["standard", "standard-react"],
   "rules": {
     "no-tabs": 0,
-    "indent": [2, "tab"],
-    "react/jsx-indent": [2, "tab"],
+    "padded-blocks": "off",
+    "indent": "off",
+    "react/jsx-indent": "off",
 		"react/prop-types": 0,
 		"jsx-quotes": 0,
-		"react/jsx-indent-props": [2, "tab"]
+		"react/jsx-indent-props": "off",
+    "func-call-spacing": "off",
+    "no-trailing-spaces": "off",
+    "space-infix-ops": "off"
   },
   "parser": "babel-eslint"
 }
