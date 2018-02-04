@@ -11,7 +11,7 @@ import {Provider} from 'mobx-react'
 
 injectTapEventPlugin()
 
-import stores from './src/app/stores'
+import stores from './src/app/appstore'
 
 var app = express()
 

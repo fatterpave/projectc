@@ -1,6 +1,6 @@
 import React from 'react'
 import {Route} from 'react-router'
-import Main from './pages/Main'
+import Main from './main'
 
 
 export default (

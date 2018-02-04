@@ -1,8 +1,3 @@
-/**
- * Main Component
- * Main is the Layout of the application
- */
-
 import React, {Component} from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import {observer} from 'mobx-react'
@@ -23,7 +18,7 @@ class Main extends Component {
 	render () {
 		return (
 			<MuiThemeProvider muiTheme={this.getTheme()}>
-				<RaisedButton label="kjj" />
+				<RaisedButton label="Tryykkaa" />
 			</MuiThemeProvider>
 		)
 	}
