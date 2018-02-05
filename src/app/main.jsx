@@ -15,7 +15,7 @@ class Main extends Component {
 
     constructor (args) {
         super (args)
-        restService.getProjects()        
+        restService.getProjects()    
     }
 
 	getTheme () {

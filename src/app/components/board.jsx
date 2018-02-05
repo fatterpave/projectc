@@ -35,6 +35,17 @@ export default class Board extends Component {
                         )
                     }
                 </div>
+                <div>
+                    {
+                        this.props.appStore.contributors && this.props.appStore.contributors.map((contributor, index) =>                                
+                            <div key={index} style={{display: 'flex'}}>
+                                <div key={'id_'+contributor.id} style={{width: '150px'}}>{contributor.id}</div>
+                                <div key={'name_'+contributor.name} style={{width: '150px'}}>{contributor.name}</div>
+                                <div key={'birthdate_'+contributor.birthdate} style={{width: '150px'}}>{contributor.birthdate}</div>                             
+                            </div>
+                        )
+                    }
+                </div>
             </div>
 		)
 	}
